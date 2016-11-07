@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnHello = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnHello
+            // 
+            this.btnHello.Location = new System.Drawing.Point(84, 94);
+            this.btnHello.Name = "btnHello";
+            this.btnHello.Size = new System.Drawing.Size(97, 23);
+            this.btnHello.TabIndex = 0;
+            this.btnHello.Text = "Hello world of Git";
+            this.btnHello.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btnHello);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnHello;
     }
 }
 
